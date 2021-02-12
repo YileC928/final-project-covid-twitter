@@ -10,9 +10,9 @@ GitHub Repository Link: https://github.com/cs-ssa-w21/final-project-covid-twitte
 Team member: Jinfei Zhu, Xi Cheng, Boya Fu, Yile Chen
 
 Goals:
-2020 is all about Covid-19. This unprecedented global pandemic have changed everyone's daily normal and we are willing to find out what CDC news relate the change of number of covid infected persons and death. 
+2020 is all about Covid-19. This unprecedented global pandemic has changed everyone's daily normal and we are willing to find out what CDC news relate to the change of number of covid infected persons and death. 
 At the meantime, in the United States, many governors like Andrew Cuomo of New York State will give covid administration on Twitter. We would also collect data from several states seriously influenced by Covid and if time permited we would collect data from all states goverors.
-We would build a web interaction page that when users input a time period and states, he can see the covid number and CDC & governors policy guidlines and covid-related policies.
+We would build a web interaction page that when users input a time period and state name, they can see the covid number and CDC & governors policy guidlines and covid-related policies.
 
 Data Source:
 
