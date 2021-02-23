@@ -33,3 +33,12 @@ Covid Data:
 
 https://coronavirus.jhu.edu/map.html
 
+# References:
+
+- Twint Package: https://github.com/twintproject/twint/wiki/Configuration
+- Tweepy Package: https://docs.tweepy.org/en/latest/
+- Cursor Tutorial: https://docs.tweepy.org/en/latest/cursor_tutorial.html?highlight=cursor#cursor-tutorial
+- User Timeline Tutorial: https://docs.tweepy.org/en/latest/api.html#API.user_timeline
+- API setting: https://www.youtube.com/watch?v=dvAurfBB6Jk
+- Functions: https://py.plainenglish.io/scraping-tweets-with-tweepy-python-59413046e788
+- Scraping codes: https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1
