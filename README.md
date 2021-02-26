@@ -42,3 +42,4 @@ https://coronavirus.jhu.edu/map.html
 - API setting: https://www.youtube.com/watch?v=dvAurfBB6Jk
 - Functions: https://py.plainenglish.io/scraping-tweets-with-tweepy-python-59413046e788
 - Scraping codes: https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1
+- Tweet preprocessing: https://pypi.org/project/tweet-preprocessor/
