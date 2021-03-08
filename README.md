@@ -39,7 +39,8 @@ Following packages needs to be downloaded to successfully run this notebook:
 CDC: https://twitter.com/CDCgov
 
 
-Governors: 
+
+Governors' Tweets: 
 
 Illinois Governor JB Pritzker: https://twitter.com/GovPritzker
 
@@ -114,3 +115,10 @@ Seaborn:
 plotly: 
 
     https://plotly.com/python/choropleth-maps/
+    
+## Tweets Analysis
+
+Tweet preprocessing: 
+
+    https://pypi.org/project/tweet-preprocessor/
+
