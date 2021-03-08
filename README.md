@@ -17,7 +17,7 @@ Our analysis contains five parts:
 - COVID Data Analysis (Jinfei Zhu)
 - CDC Tweets Content Analysis (Xi Cheng)
 - Record Linkage (Boya Fu)
-- User Interface to input `date` or `state name` and output related Tweets (Yile Chen, Boya Fu)
+- User Interface to input `date` or `state name` and output related Tweets and COVID number (Yile Chen, Boya Fu)
 
 # Prerequisites
 
