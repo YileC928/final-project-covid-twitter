@@ -22,6 +22,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+pd.options.mode.chained_assignment = None
 
 def clean_data(df):
     '''
@@ -95,6 +96,11 @@ def get_correct_date(df):
 
     return df
 
+def get_the_latest_date(df):
+    '''
+    Find the latest date in df
+    '''
+    return sorted(df.date)[-1]
 
 def find_top_n_hardest_hit_state(df, n=5):
     '''
@@ -123,22 +129,25 @@ def draw_top_n_hardest_hit_state(df, var='confirmed_state', n=5):
 
     # clean the name
     if var == 'confirmed_state':
-        col_name = 'confirmed'
+        col_name = 'Confirmed'
     else:
-        col_name = 'deaths'
+        col_name = 'Deaths'
 
     # draw the relplot
-    g = sns.relplot(x='date', y=var, kind='line',
+    sns.relplot(x='date', y=var, kind='line',
                 data=top_state_time_trend_df,
                 hue='province_state', ci=None)
-    g.set(xticks=np.arange(0, len(top_state_time_trend_df)/n, 
-                step=len(top_state_time_trend_df)/n//10))
-    g.set_axis_labels("Date", "Number")
-    g.set_xticklabels(rotation=90)
-    g.ax.set_title(label=f"Top {n} states by {col_name} number",loc='center')
-    g.tight_layout()
 
-# draw_top_n_hardest_hit_state(covid_by_state, n=10)
+    plt.xticks(ticks=np.arange(0, len(top_state_time_trend_df)/n, 
+                step=len(top_state_time_trend_df)/n//10),
+                rotation=90)
+    plt.xlabel('Date')  
+    plt.ylabel('Number')  
+    plt.title(label=f"Top {n} States by {col_name} Number") 
+
+    plt.show()
+
+
 
 def draw_state_heatmap(df, var='confirmed_state'):
     '''
