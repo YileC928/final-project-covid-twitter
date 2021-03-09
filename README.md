@@ -55,11 +55,13 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 ## Main repository
 `[Final Output] COVID-19 Data and CDC's Tweets Analysis.ipynb `: The main output Jupyter Notebook.
 
+## Code:
+
+`__init__.py`: The construction code for building a python package with all our functions
+
 `scrape_twitter_with_Twint.py`: Python functions to scrape twitter with Twint.
 
 `covid_data_analysis.py`: Python functions to do COVID data cleaning, analysis, and visualization.
-
-## Code:
 
 `covid-big-query-by-country.sql` and `covid-big-query-by-state.sql`: SQL scripts to retrieve COVID data from Google Bigquery platform
 
@@ -112,9 +114,14 @@ Seaborn:
     https://seaborn.pydata.org/generated/seaborn.FacetGrid.html
     
     https://seaborn.pydata.org/generated/seaborn.relplot.html
+    
 plotly: 
 
     https://plotly.com/python/choropleth-maps/
+    
+Constructing module of different file:
+
+    https://python-102.readthedocs.io/en/latest/packaging.html
     
 ## Tweets Analysis
 
