@@ -119,7 +119,7 @@ plotly:
 
     https://plotly.com/python/choropleth-maps/
     
-Constructing module of different file:
+Constructing a python package with different files:
 
     https://python-102.readthedocs.io/en/latest/packaging.html
     
