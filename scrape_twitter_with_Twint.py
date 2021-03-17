@@ -71,7 +71,7 @@ def get_tweets_from_multiple_users(df, folder, search=None,
         output(str): the file name of the output json file
         folder(str): a folder name to store multiple json files
     Output:
-        A json file containing all Tweets from multiple users
+        A folder of json files containing all Tweets from multiple users
     '''
     # crete a list to store the output file names
     state_lst = list(df['State'])
@@ -83,9 +83,7 @@ def get_tweets_from_multiple_users(df, folder, search=None,
         output_path = r'data//{}//{}.json'.format(folder, state)
 
         get_tweets(handle, search, since, until, output_path)
-    # if we want to combine all file into one
-    # combined_df = pd.concat([pd.read_json(f) for f in output_lst])
-    # combined_df.to_csv(output, index=False, encoding='utf-8-sig')
+
 
 
 
