@@ -17,7 +17,7 @@ Our analysis contains five parts:
 - COVID Data Analysis (Jinfei Zhu)
 - CDC Tweets Content Analysis (Xi Cheng)
 - Record Linkage (Boya Fu)
-- User Interface to input `date` or `state name` and output CDC Tweets on that date and COVID numbers (Yile Chen, Boya Fu)
+- Interactive Dashboard exhibiting COVID numbers and trends and CDC Tweets (Yile Chen)
 
 # Prerequisites
 
@@ -141,4 +141,11 @@ COVID Prediction:
 Tweet preprocessing: 
 
     https://pypi.org/project/tweet-preprocessor/
+
+## Visualization
+
+Voila:
+    
+    https://voila.readthedocs.io/en/stable/using.html
+    https://www.youtube.com/watch?v=FngV4VdYrkA
 
