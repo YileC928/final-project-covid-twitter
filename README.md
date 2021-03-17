@@ -39,8 +39,9 @@ Following packages needs to be downloaded to successfully run this notebook:
 CDC: https://twitter.com/CDCgov
 
 
-
 Governors' Tweets: 
+
+We have collected Twitter from 51 governor's Twitter. Their handle are in `data\governor-twitter-handle.csv`. Here are some examples:
 
 Illinois Governor JB Pritzker: https://twitter.com/GovPritzker
 
@@ -55,26 +56,27 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 ## Main repository
 `[Final Output] COVID-19 Data and CDC's Tweets Analysis.ipynb `: The main output Jupyter Notebook.
 
-## Code:
-
-`__init__.py`: The construction code for building a python package with all our functions
-
 `scrape_twitter_with_Twint.py`: Python functions to scrape twitter with Twint.
 
 `covid_data_analysis.py`: Python functions to do COVID data cleaning, analysis, and visualization.
 
+## Code:
+
 `covid-big-query-by-country.sql` and `covid-big-query-by-state.sql`: SQL scripts to retrieve COVID data from Google Bigquery platform
 
+`data\governor-twitter-handle.csv`: Specific Twitter handles for each governor
 
 ## Data:
 
-`cdc_twitter_covid.json`: All CDC Tweets that mention term 'COVID'
+`cdc_twitter_covid.json`: All CDC Tweets that mention the term 'COVID'
 
 `cdc_twitter_since_2020.json`: All CDC Tweets from 2020-01-01 to 2021-02-22
 
+`State` folder: This folder contains 51 json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
+
 `covid-data-by-state.csv`: COVID data by states from 2020-01-01 to 2021-02-22, including confirmed and deathes
 
-`covid-data-by-country.csv`: COVID data of the US from 2020-01-01 to 2021-02-22, including confirmed and deathes
+`covid-data-US.csv`: COVID data of the US from 2020-01-01 to 2021-02-22, including confirmed and deathes
 
 
 
@@ -122,6 +124,17 @@ plotly:
 Constructing a python package with different files:
 
     https://python-102.readthedocs.io/en/latest/packaging.html
+    
+ARIMA:
+
+    https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3
+    
+    https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_model.ARIMA.fit.html
+
+COVID Prediction:
+    
+    https://towardsdatascience.com/model-the-covid-19-epidemic-in-detail-with-python-98f0d13f3a0e
+ 
     
 ## Tweets Analysis
 
