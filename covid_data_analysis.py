@@ -138,9 +138,13 @@ def draw_top_n_hardest_hit_state(df, var='confirmed_state', n=5):
                 data=top_state_time_trend_df,
                 hue='province_state', ci=None)
 
-    plt.xticks(ticks=np.arange(0, len(top_state_time_trend_df)/n, 
+    plt.xticks(rotation=90)
+
+    if len(top_state_time_trend_df) > 10:
+        plt.xticks(ticks=np.arange(0, len(top_state_time_trend_df)/n,
                 step=len(top_state_time_trend_df)/n//10),
-                rotation=90)
+                 rotation=90)
+
     plt.xlabel('Date')  
     plt.ylabel('Number')  
     plt.title(label=f"Top {n} States by {col_name} Number") 
