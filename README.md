@@ -57,6 +57,8 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 # Files in this repository
 
 ## Main repository
+`Dashboard.ipynb`: The interactive dashboard notebook.
+
 `[Final Output] COVID-19 Data and CDC's Tweets Analysis.ipynb `: The main output Jupyter Notebook.
 
 `scrape_twitter_with_Twint.py`: Python functions to scrape twitter with Twint.
