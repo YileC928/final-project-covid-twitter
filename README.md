@@ -15,7 +15,7 @@ final-project-covid-twitter created by GitHub Classroom
 Our analysis contains five parts:
 - Data Collection (Jinfei Zhu)
 - COVID Data Analysis (Jinfei Zhu)
-- CDC Tweets Content Analysis (Xi Cheng)
+- CDC Tweets Word and Phrase Frequency Analysis (Xi Cheng)
 - Record Linkage (Boya Fu)
 - Interactive Dashboard exhibiting COVID numbers and trends and CDC Tweets (Yile Chen)
 
