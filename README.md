@@ -142,6 +142,18 @@ Tweet preprocessing:
 
     https://pypi.org/project/tweet-preprocessor/
 
+Spacy:
+
+    https://spacy.io/
+    
+NLTK:
+    
+    https://www.nltk.org/
+    
+Wordcloud:
+
+    https://amueller.github.io/word_cloud/
+    
 ## Visualization
 
 Voila:
