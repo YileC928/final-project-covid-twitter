@@ -72,7 +72,7 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `cdc_twitter_since_2020.json`: All CDC Tweets from 2020-01-01 to 2021-02-22
 
-`State` folder: This folder contains 51 json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
+`governor` folder: This folder contains json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
 
 `covid-data-by-state.csv`: COVID data by states from 2020-01-01 to 2021-02-22, including confirmed and deathes
 
@@ -100,10 +100,6 @@ Debugging:
 
     https://github.com/twintproject/twint/issues/1121#issuecomment-773521415
     
-Combine json files into one json: 
-
-    https://www.freecodecamp.org/news/
-    how-to-combine-multiple-csv-files-with-8-lines-of-code-265183e0854/
 
 ## COVID Data Analysis
 
@@ -125,16 +121,6 @@ Constructing a python package with different files:
 
     https://python-102.readthedocs.io/en/latest/packaging.html
     
-ARIMA:
-
-    https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3
-    
-    https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_model.ARIMA.fit.html
-
-COVID Prediction:
-    
-    https://towardsdatascience.com/model-the-covid-19-epidemic-in-detail-with-python-98f0d13f3a0e
- 
     
 ## Tweets Analysis
 
