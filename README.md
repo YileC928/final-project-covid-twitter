@@ -17,7 +17,7 @@ Our analysis contains five parts:
 - COVID Data Analysis (Jinfei Zhu)
 - CDC Tweets Word and Phrase Frequency Analysis (Xi Cheng)
 - Record Linkage (Boya Fu)
-- Interactive Dashboard exhibiting COVID numbers and trends and CDC Tweets (Yile Chen)
+- Visualization and Interactive Dashboard (Yile Chen)
 
 # Prerequisites
 
@@ -31,6 +31,9 @@ Following packages needs to be downloaded to successfully run this notebook:
 
 `pip install nbformat`
 
+[Voila (version 0.2.7)](https://voila.readthedocs.io/en/stable/using.html)
+
+`pip install voila`
 
 # Data Source:
 
@@ -140,11 +143,17 @@ Wordcloud:
 
     https://amueller.github.io/word_cloud/
     
-## Visualization
+## Dashboard interaction
 
 Voila:
     
     https://voila.readthedocs.io/en/stable/using.html
     https://www.youtube.com/watch?v=FngV4VdYrkA
-    https://github.com/voila-dashboards/voila-heroku
+
+ipywidgets:
+
+    https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html
+
+    
+    
 
