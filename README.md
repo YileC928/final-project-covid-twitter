@@ -59,11 +59,11 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 
 `pip install spacy`
 
-[Voila 0.2.7](https://voila.readthedocs.io/en/stable/using.html): Build Dash Board
+[Voila 0.2.7](https://voila.readthedocs.io/en/stable/using.html): To build Dash Board
 
 `pip install voila`
 
-[ipywidgets 7.6.3](https://pypi.org/project/ipywidgets/): To sucessfully run voila
+[ipywidgets 7.6.3](https://pypi.org/project/ipywidgets/): To creat interactive visualization
 
 `pip install ipywidgets`
 
