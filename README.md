@@ -21,19 +21,39 @@ Our analysis contains five parts:
 
 # Prerequisites
 
-Following packages needs to be downloaded to successfully run this notebook:
+Run following command in Anaconda Prompt (windows) or terminal window (MacOS or Linux):
 
-[Plotly (version 4.14.3)](https://pypi.org/project/plotly/)
+Update Anaconda and Jupyter Notebook to latest version:
+
+`conda update conda`
+
+`conda update anaconda`
+
+`conda update jupyter`
+
+
+
+Following packages needs to be downloaded to successfully run all notebooks for this project:
+
+[twint 2.1.20](https://pypi.org/project/twint/): Download Tweets
+
+`pip install twint`
+
+[Plotly (version 4.14.3)](https://pypi.org/project/plotly/): Draw US map
 
 `pip install plotly`
 
-[nbformat 5.1.2 (version 5.1.2)](https://pypi.org/project/nbformat/) 
+[nbformat 5.1.2 (version 5.1.2)](https://pypi.org/project/nbformat/) : To successfully run plotly
 
 `pip install nbformat`
 
-[Voila (version 0.2.7)](https://voila.readthedocs.io/en/stable/using.html)
+[Voila (version 0.2.7)](https://voila.readthedocs.io/en/stable/using.html): Build Dash Board
 
 `pip install voila`
+
+[ipywidgets 7.6.3](https://pypi.org/project/ipywidgets/): To sucessfully run voila
+
+`pip install ipywidgets`
 
 # Data Source:
 
