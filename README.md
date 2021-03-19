@@ -25,12 +25,11 @@ Run following command in Anaconda Prompt (windows) or terminal window (MacOS or 
 
 Update Anaconda and Jupyter Notebook to latest version:
 
-`conda update conda`
-
-`conda update anaconda`
-
-`conda update jupyter`
-
+```
+conda update conda
+conda update anaconda
+conda update jupyter
+```
 
 
 Following packages needs to be downloaded to successfully run all notebooks for this project:
@@ -91,7 +90,7 @@ In this case, Voilà will serve the directory in which the Jupyter server was st
 
 # Data Source
 
-## Twitter: 
+## Twitter
 
 CDC: https://twitter.com/CDCgov
 
@@ -104,28 +103,41 @@ Illinois Governor JB Pritzker: https://twitter.com/GovPritzker
 
 New York Governor Andrew Cuomo: https://twitter.com/NYGovCuomo
 
-## Covid Data: 
+## Covid Data
 
 JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 # Files in this repository
 
 ## Main repository
-`Dashboard.ipynb`: The interactive dashboard notebook.
 
-`[Final Output] COVID-19 Data and CDC's Tweets Analysis.ipynb `: The main output Jupyter Notebook.
+`1_Data_collection_and_covid19_data_analysis.ipynb`: The notebook for data collection and covid data analysis
 
-`scrape_twitter_with_Twint.py`: Python functions to scrape twitter with Twint.
+`2_Load_Tweets_and _word_frequency_analysis.ipynb`: The notebook for Tweets analysis
 
-`covid_data_analysis.py`: Python functions to do COVID data cleaning, analysis, and visualization.
+`3_Record_linkage.ipynb`: The notebook for record linkage
 
-## Code:
+`4_Dashboard.ipynb`: The interactive dashboard notebook
+
+`scrape_twitter_with_Twint.py`: Python functions to scrape twitter with Twint
+
+`covid_data_analysis.py`: Python functions to do COVID data cleaning, analysis, and visualization
+
+`Record_linkage_helper.py`: Python functions for record linkage
+
+`README.md`: This file
+
+## sqlcode
 
 `covid-big-query-by-country.sql` and `covid-big-query-by-state.sql`: SQL scripts to retrieve COVID data from Google Bigquery platform
 
-`data\governor-twitter-handle.csv`: Specific Twitter handles for each governor
+## Data
 
-## Data:
+`covid-data-by-state.csv`: COVID data by states from 2020-01-01 to 2021-02-22, including confirmed and deathes
+
+`covid-data-US.csv`: COVID data of the US from 2020-01-01 to 2021-02-22, including confirmed and deathes
+
+`governor-twitter-handle.csv`: Specific Twitter handles for each governor
 
 `cdc_twitter_covid.json`: All CDC Tweets that mention the term 'COVID'
 
@@ -133,13 +145,8 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `governor` folder: This folder contains json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
 
-`covid-data-by-state.csv`: COVID data by states from 2020-01-01 to 2021-02-22, including confirmed and deathes
 
-`covid-data-US.csv`: COVID data of the US from 2020-01-01 to 2021-02-22, including confirmed and deathes
-
-
-
-# References:
+# References
 
 ## Data Collection
 
