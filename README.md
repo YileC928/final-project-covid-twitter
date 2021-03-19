@@ -192,11 +192,11 @@ Wordcloud:
 Voila:
     
     https://voila.readthedocs.io/en/stable/using.html
-    https://www.youtube.com/watch?v=FngV4VdYrkA
 
 ipywidgets:
 
     https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html
+    https://www.youtube.com/watch?v=FngV4VdYrkA
 
     
     
