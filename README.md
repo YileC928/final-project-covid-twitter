@@ -47,9 +47,9 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 
 `pip install nbformat`
 
-[preprocessor 1.1.3](https://pypi.org/project/preprocessor/): To preprocess Tweets
+[preprocessor 0.0.6](https://pypi.org/project/tweet-preprocessor/): To preprocess Tweets
 
-`pip install preprocessor`
+`pip install tweet-preprocessor`
 
 [nltk 3.5](https://pypi.org/project/nltk/): To analyze Tweets
 
