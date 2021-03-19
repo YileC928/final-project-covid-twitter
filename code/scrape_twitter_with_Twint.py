@@ -58,31 +58,32 @@ def get_tweets(username=None, search=None, since=None,
     twint.run.Search(c)
 
 
-def get_tweets_from_multiple_users(users, output, folder, search=None, 
+def get_tweets_from_multiple_users(df, folder, search=None, 
                                 since=None, until=None):
     '''
     Get Tweets from ultiple users
     Inputs:
-        users(lst): a list of Twitter user names
-                 like ['CDCgov', 'NYGovCuomo', 'GovPritzker']
+        df(dataframe): a dataframe containing governors' state, 
+                name, github handle
         search(str): search terms
         since(str): filter Tweets sent since date 'yyyy-mm-dd'
         until(str): filter Tweets sent until date 'yyyy-mm-dd'
         output(str): the file name of the output json file
         folder(str): a folder name to store multiple json files
     Output:
-        A json file containing all Tweets from multiple users
+        A folder of json files containing all Tweets from multiple users
     '''
     # crete a list to store the output file names
-    output_lst = []
+    state_lst = list(df['State'])
+    handle_lst = list(df['Twitter Handle'])
 
-    for user in users:
-        user_output = r'{}\{}.json'.format(folder, user)
-        output_lst.append(user_output)
-        get_tweets(user, search, since, until, user_output)
+    for i in range(len(handle_lst)):
+        state = state_lst[i]
+        handle = handle_lst[i][1:] # delete @
+        output_path = r'data//{}//{}.json'.format(folder, state)
 
-    combined_df = pd.concat([pd.read_json(f) for f in output_lst])
-    combined_df.to_csv(output, index=False, encoding='utf-8-sig')
+        get_tweets(handle, search, since, until, output_path)
+
 
 
 
