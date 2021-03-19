@@ -39,15 +39,27 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 
 `pip install twint`
 
-[Plotly (version 4.14.3)](https://pypi.org/project/plotly/): Draw US map
+[Plotly 4.14.3](https://pypi.org/project/plotly/): Draw US map
 
 `pip install plotly`
 
-[nbformat 5.1.2 (version 5.1.2)](https://pypi.org/project/nbformat/) : To successfully run plotly
+[nbformat 5.1.2](https://pypi.org/project/nbformat/) : To successfully run plotly
 
 `pip install nbformat`
 
-[Voila (version 0.2.7)](https://voila.readthedocs.io/en/stable/using.html): Build Dash Board
+[preprocessor 1.1.3](https://pypi.org/project/preprocessor/): To preprocess Tweets
+
+`pip install preprocessor`
+
+[nltk 3.5](https://pypi.org/project/nltk/): To analyze Tweets
+
+`pip install nltk`
+
+[spacy 3.0.5](https://pypi.org/project/spacy/): To analyze Tweets
+
+`pip install spacy`
+
+[Voila 0.2.7](https://voila.readthedocs.io/en/stable/using.html): Build Dash Board
 
 `pip install voila`
 
@@ -55,7 +67,17 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 
 `pip install ipywidgets`
 
-# Data Source:
+# How to use our dashboard
+
+To use Voilà within a pre-existing Jupyter server, first start the server, then go to the following URL:
+
+`<url-of-my-server>/voila`
+
+For example, if you typed jupyter notebook and it was running at `http://localhost:8888/tree`, then Voilà would be accessed at `http://localhost:8888/voila`.
+
+In this case, Voilà will serve the directory in which the Jupyter server was started.
+
+# Data Source
 
 ## Twitter: 
 
