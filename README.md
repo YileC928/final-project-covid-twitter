@@ -113,7 +113,7 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `1_Data_collection_and_covid19_data_analysis.ipynb`: The notebook for data collection and covid data analysis
 
-`2_Load_Tweets_and _word_frequency_analysis.ipynb`: The notebook for Tweets analysis
+`2_COVID_Tweets_word_frequency_analysis.ipynb`: The notebook for Tweets analysis
 
 `3_Record_linkage.ipynb`: The notebook for record linkage
 
