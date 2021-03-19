@@ -47,7 +47,7 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 
 `pip install nbformat`
 
-[preprocessor 0.0.6](https://pypi.org/project/tweet-preprocessor/): To preprocess Tweets
+[tweet-preprocessor 0.0.6](https://pypi.org/project/tweet-preprocessor/): To preprocess Tweets
 
 `pip install tweet-preprocessor`
 
@@ -58,6 +58,18 @@ Following packages needs to be downloaded to successfully run all notebooks for 
 [spacy 3.0.5](https://pypi.org/project/spacy/): To analyze Tweets
 
 `pip install spacy`
+
+[wordcloud 1.8.1](https://pypi.org/project/wordcloud/): To draw wordcloud
+
+'pip install wordcloud'
+
+[matplotlib 3.3.4](https://pypi.org/project/matplotlib/): To draw plots
+
+'pip install matplotlib'
+
+[Keras 2.4.3](https://pypi.org/project/Keras/): To analyze Tweets
+
+'pip install Keras'
 
 [Voila 0.2.7](https://voila.readthedocs.io/en/stable/using.html): To build Dash Board
 
@@ -187,6 +199,10 @@ Wordcloud:
 
     https://amueller.github.io/word_cloud/
     
+Keras:
+
+    https://pypi.org/project/Keras/
+    
 ## Dashboard interaction
 
 Voila:
@@ -199,5 +215,3 @@ ipywidgets:
     https://www.youtube.com/watch?v=FngV4VdYrkA
 
     
-    
-
