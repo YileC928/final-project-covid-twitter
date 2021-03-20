@@ -143,8 +143,15 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `cdc_twitter_since_2020.json`: All CDC Tweets from 2020-01-01 to 2021-02-22
 
+`merged_df_final`: Output of record linkage
+
+`tweet.csv` and `tweet.txt`: Cleaned Tweets
+
+`Sample_output_rl`: A sample output for record linkage
+
 `governor` folder: This folder contains json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
 
+`test` folder: A folder to store some test scraping results when runing code (you can safely ignore it)
 
 # References
 
