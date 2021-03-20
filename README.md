@@ -131,7 +131,7 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `covid-big-query-by-country.sql` and `covid-big-query-by-state.sql`: SQL scripts to retrieve COVID data from Google Bigquery platform
 
-## Data
+## data
 
 `covid-data-by-state.csv`: COVID data by states from 2020-01-01 to 2021-02-22, including confirmed and deathes
 
