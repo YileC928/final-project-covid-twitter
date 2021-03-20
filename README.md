@@ -10,7 +10,7 @@ final-project-covid-twitter created by GitHub Classroom
 
 **GitHub Repository**: https://github.com/cs-ssa-w21/final-project-covid-twitter
 
-**Goals**: 2020 is all about Covid-19. This unprecedented global pandemic has changed everyone's daily normal and we are willing to find out what CDC news relates to the change of the number of covid infected persons and death. In the meantime, in the United States, many governors like Andrew Cuomo of New York State will give covid administration on Twitter. We would also collect data from several states seriously influenced by Covid. If time permits, we would collect data from all states' governors. We would build a web interaction page (probably using flask) that when users input a time period and state name, they can see the covid number and CDC & governors policy guidelines and covid-related policies.
+**Goals**: 2020 is all about Covid-19. This unprecedented global pandemic has changed everyone's daily normal and we are willing to find out what CDC news relates to the change of the number of covid infected persons and death. In the meantime, in the United States, many governors like Andrew Cuomo of New York State gives covid administration on Twitter. We would also collect data from several states seriously influenced by Covid. If time permits, we would collect data from all states' governors. We would build a web interaction page (probably using flask) that when users input a time period and state name, they can see the covid number and CDC & governors policy guidelines and covid-related policies.
 
 Our analysis contains five parts:
 - Data Collection (Jinfei Zhu)
@@ -147,11 +147,11 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 `tweet.csv` and `tweet.txt`: Cleaned Tweets
 
-`Sample_output_rl`: A sample output for record linkage
+`Sample_output_rl.png`: A image for the sample output of record linkage
 
 `governor` folder: This folder contains json files documenting all Tweets that mention the term 'COVID' in each governor's Twitter
 
-`test` folder: A folder to store some test scraping results when runing code (you can safely ignore it)
+`test` folder: A folder to store some test scraping results when running code (you can safely ignore it)
 
 # References
 
@@ -159,7 +159,7 @@ JHU COVID MAP: https://coronavirus.jhu.edu/map.html
 
 *Twint Package*
 
-Pacage Introduction: 
+Pakage Introduction: 
 
     https://github.com/twintproject/twint
     
@@ -190,7 +190,7 @@ plotly:
 
     https://plotly.com/python/choropleth-maps/
     
-Constructing a python package with different files:
+Constructing a python package with different files (though we finally didn't construct the package because kernel died after we added __init__.py file for unknown reason):
 
     https://python-102.readthedocs.io/en/latest/packaging.html
     
