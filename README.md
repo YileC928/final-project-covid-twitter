@@ -88,7 +88,7 @@ For example, if you typed jupyter notebook and it was running at `http://localho
 
 In this case, Voilà will serve the directory in which the Jupyter server was started.
 
-*Please also note that, `2_COVID_Tweets_word_frequency_analysis.ipynb` needed to be run before you open the dashboard. (We prestored the preprocessed tweets in that notebook and call them by %store -r to save time.
+*please run 2_COVID_Tweets_word_frequency_analysis.ipynb before you run the dashboard. Since preprocessed tweets are stored with it and is called as stored value in the dashboard to save running time.
 
 # Data Source
 
