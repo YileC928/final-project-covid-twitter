@@ -90,6 +90,10 @@ In this case, Voilà will serve the directory in which the Jupyter server was st
 
 *please run 2_COVID_Tweets_word_frequency_analysis.ipynb before you run the dashboard. Since preprocessed tweets are stored with it and is called as stored value in the dashboard to save running time.
 
+# What does our Dashboard look like
+
+![](data/COVID_interactive_dashboard.png)
+
 # Data Source
 
 ## Twitter
